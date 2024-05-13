@@ -3,6 +3,7 @@
 import { Icons } from "@/components/Icons";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
+import { Reviews } from "@/components/Reviews";
 import { Check, Star } from "lucide-react";
 
 export default function Home() {
@@ -102,7 +103,7 @@ export default function Home() {
                 alt="line"
                 className="absolute w-20 -left-6 -bottom-6 select-none"
               />
-              <Phone className="w-64" imgSrc="/testimonials/1.jpg" />
+              <Phone className="w-64" imgSrc="/testimonials/2.jpg" />
             </div>
           </div>
         </MaxWidthWrapper>
@@ -151,7 +152,7 @@ export default function Home() {
               <div className="flex gap-4 mt-2">
                 <img
                   className="rounded-full h-12 w-12 object-cover"
-                  src="/users/user-1.png"
+                  src="/users/joseph.jpg"
                   alt="user"
                 />
                 <div className="flex flex-col">
@@ -188,7 +189,7 @@ export default function Home() {
               <div className="flex gap-4 mt-2">
                 <img
                   className="rounded-full h-12 w-12 object-cover"
-                  src="/users/user-4.jpg"
+                  src="/users/jotaro.jpg"
                   alt="user"
                 />
                 <div className="flex flex-col">
@@ -203,7 +204,9 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
 
-        <div className="pt-16">{/* {<Reviews />} */}</div>
+        <div className="pt-16">
+          <Reviews />
+        </div>
       </section>
     </div>
   );
