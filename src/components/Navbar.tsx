@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { buttonVariants } from "./ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, LayoutDashboard } from "lucide-react";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 const Navbar = async () => {
@@ -38,7 +38,9 @@ const Navbar = async () => {
                       variant: "ghost",
                     })}
                   >
-                    Dashboard 📱
+                    <div className="flex gap-2 items-center">
+                      Dashboard <LayoutDashboard className="text-green-500" />
+                    </div>
                   </Link>
                 ) : null}
                 <Link
