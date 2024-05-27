@@ -51,27 +51,27 @@ export default function Home() {
                 <div className="flex -space-x-4">
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-1.png"
+                    src="/users/user1.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-2.png"
+                    src="/users/user2.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-3.png"
+                    src="/users/user3.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-4.jpg"
+                    src="/users/user4.jpg"
                     alt="user image"
                   />
                   <img
                     className="inline-block object-cover h-10 w-10 rounded-full ring-2 ring-slate-100"
-                    src="/users/user-5.jpg"
+                    src="/users/user5.jpg"
                     alt="user image"
                   />
                 </div>
@@ -105,7 +105,7 @@ export default function Home() {
                 alt="line"
                 className="absolute w-20 -left-6 -bottom-6 select-none"
               />
-              <Phone className="w-64" imgSrc="/testimonials/2.jpg" />
+              <Phone className="w-64" imgSrc="/testimonials/cover.jpg" />
             </div>
           </div>
         </MaxWidthWrapper>

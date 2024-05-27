@@ -5,16 +5,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
 import Providers from "@/contexts/Providers";
+import { constructMetadata } from "@/lib/utils";
 
 const roboto = Roboto_Slab({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "Case Cobra",
-  description: "A next app for buying mobile phone cases",
-};
+export const metadata = constructMetadata();
 
 export default function RootLayout({
   children,
